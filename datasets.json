@@ -1,17 +1,12 @@
 [
   {
-    "name": "Over 2.5",
-    "slug": "over-2-5",
-    "file": "data/over-2-5.json"
+    "name": "Value Bets",
+    "slug": "value-bets",
+    "file": "data/value-bets.json"
   },
   {
-    "name": "BTTS",
-    "slug": "btts",
-    "file": "data/btts.json"
-  },
-  {
-    "name": "Over 1.5",
-    "slug": "over-1-5",
-    "file": "data/over-1-5.json"
+    "name": "Tracker",
+    "slug": "tracker",
+    "file": "data/tracker.json"
   }
 ]
