@@ -1,43 +1,38 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Top Daily Tips</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Top Daily Tips</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body class="compact">
-  <header class="topbar">
-    <div class="title">
-      <h1>Top Daily Tips</h1>
-      <p class="subtitle">Value Bets • Tracker</p>
+
+<header class="topbar">
+  <div class="title">
+    <h1>Top Daily Tips</h1>
+    <p class="subtitle">Value Bets • Tracker</p>
+  </div>
+</header>
+
+<main class="container">
+  <section class="controls card">
+    <label>Dashboard</label>
+    <div id="tabs" class="tabs"></div>
+  </section>
+
+  <section class="card tableWrap">
+    <div id="cardList" class="cardList"></div>
+
+    <div class="tableScroll">
+      <table id="tbl">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
     </div>
-    <div class="actions">
-      <button id="viewBtn" class="btn btn-ghost">Wide</button>
-      <button id="resetBtn" class="btn btn-ghost">Reset</button>
-    </div>
-  </header>
+  </section>
+</main>
 
-  <main class="container">
-    <section class="controls card">
-      <div class="control span-2">
-        <label>Dashboard</label>
-        <div id="tabs" class="tabs"></div>
-      </div>
-    </section>
-
-    <section class="card tableWrap">
-      <div id="cardList" class="cardList"></div>
-
-      <div class="tableScroll">
-        <table id="tbl">
-          <thead></thead>
-          <tbody></tbody>
-        </table>
-      </div>
-    </section>
-  </main>
-
-  <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

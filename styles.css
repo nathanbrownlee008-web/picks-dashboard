@@ -1,12 +1,17 @@
 
 body{font-family:Arial;background:#0b1020;color:#fff;margin:0}
-.topbar{padding:16px;border-bottom:1px solid #333}
-.container{padding:12px}
-.card{background:#111827;border-radius:12px;padding:10px}
-.tab{margin-right:8px;padding:8px 12px;border-radius:999px;background:#222;color:#fff;border:none}
+.topbar{padding:18px;border-bottom:1px solid #222}
+.container{padding:14px}
+.card{background:#111827;border-radius:14px;padding:12px;margin-top:10px}
+.tabs{display:flex;gap:10px}
+.tab{padding:8px 14px;border-radius:999px;border:none;background:#222;color:#fff}
+.tab.active{background:#22c55e;color:#000;font-weight:bold}
 .tableScroll{overflow:auto}
 table{width:100%;border-collapse:collapse}
 th,td{padding:10px;border-bottom:1px solid #333}
-.cardItem{border:1px solid #333;padding:10px;margin-bottom:10px;border-radius:10px}
+.cardItem{border:1px solid #333;border-radius:12px;padding:12px;margin-bottom:10px}
 .cardTitle{font-weight:bold}
-.cardSub{color:#aaa}
+.cardSub{color:#aaa;margin-bottom:6px}
+.cardGrid{display:grid;grid-template-columns:1fr 1fr}
+.k{font-size:12px;color:#aaa}
+.v{font-size:14px}
